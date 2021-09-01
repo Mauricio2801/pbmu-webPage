@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div>
+    <footer class="main-footer">
         <p>
             Copyrigth<i class="far fa-copyright"></i> 2020, Becas Mártires de la UCA <br> Universidad 
             Centromericana "José Simeón Cañas" <br> Centro Monseñor Romero. Boulevar Los Próceres, San Salvador, Centroamérica <br> Télefono: (503)22106675
@@ -22,7 +22,7 @@
             <i class="fab fa-youtube"></i>
             <i class="fab fa-instagram"></i>
         </div>
-    </div>
+    </footer>
 </body>
 
 </html>
