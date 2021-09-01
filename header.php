@@ -12,7 +12,7 @@
 
 <body>
     <header class="main-header">
-        <img src="resources/" alt="Logo">
+        <img src="resources/logo_pbmu.png" alt="Logo">
         <nav class="nav nav-pills nav-fill">
             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             <a class="nav-link" href="#">Sobre el programa</a>
