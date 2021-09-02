@@ -9,11 +9,37 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
   .logo-image{
       width: 10rem;
+      padding: 200rem;
   }
 
   #founder{
     background-color: #070833;
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .founder-photo{
+    max-width: 25rem;
+    margin: 5rem;
+  }
+
+  .founder-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  header{
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo-img{
+    max-width: 10rem;
   }
 
   #news{
