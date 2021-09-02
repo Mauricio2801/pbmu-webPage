@@ -8,31 +8,22 @@
         </div>
         <div class="container" id="news">
             <h1>Noticias</h1>
+            <div class="news-wrapper">    
             <div class="news-container">
-                <article>
-                    <header>
+                <div class="news-title">
                         <h3>Lorem ipsum dolor sit.</h3>
-                    </header>
-                    <p>
-                        <!--noticia-->
-                    </p>
-                </article>
-                <article>
-                    <header>
+                    
+</div>
+                <div class="news-title">
+
                         <h3>Lorem ipsum dolor sit.2</h3>
-                    </header>
-                    <p>
-                        <!--noticia-->
-                    </p>
-                </article>
-                <article>
-                    <header>
+                    
+</div>
+                <div class="news-title">
                         <h3>Lorem ipsum dolor sit.3</h3>
-                    </header>
-                    <p>
-                        <!--noticia-->
-                    </p>
-                </article>
+</div>
+            </div>
+            <img class="news-img" src="http://localhost/wordpress/wp-content/uploads/2021/09/81-yKbVND-L.png" >
             </div>
         </div>
         <div class="container" id="phrase">
@@ -44,31 +35,24 @@
         <div class="container" id="community">
             <h1>Lorem ipsum dolor sit amet consectetur.</h1>
             <div class="community-container">
-                <article>
-                    <header>
-                        <img src="" alt="Foto de becario">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, qui.</p>
-                    </header>
+                <article class="community-art">
+                    
+                    <img class="community-img" src="http://localhost/wordpress/wp-content/uploads/2021/09/81-yKbVND-L.png" alt="Foto de becario">
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis eveniet itaque neque illum necessitatibus labore optio omnis, ad ab aperiam doloribus nulla aliquam sequi? Aut quasi modi cum iusto officiis eveniet corrupti impedit repellendus similique
                         illo harum voluptas fugit inventore aperiam soluta eum dolor, esse maiores ad! Fugit, eveniet quo.
                     </p>
                 </article>
-                <article>
-                    <header>
-                        <img src="" alt="Foto de becario">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, qui.</p>
-                    </header>
+                <article class="community-art">
+                <img class="community-img" src="http://localhost/wordpress/wp-content/uploads/2021/09/81-yKbVND-L.png" alt="Foto de becario">
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis eveniet itaque neque illum necessitatibus labore optio omnis, ad ab aperiam doloribus nulla aliquam sequi? Aut quasi modi cum iusto officiis eveniet corrupti impedit repellendus similique
                         illo harum voluptas fugit inventore aperiam soluta eum dolor, esse maiores ad! Fugit, eveniet quo.
                     </p>
                 </article>
-                <article>
-                    <header>
-                        <img src="" alt="Foto de becario">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, qui.</p>
-                    </header>
+                <article class="community-art"> 
+                <img class="community-img" src="http://localhost/wordpress/wp-content/uploads/2021/09/81-yKbVND-L.png" alt="Foto de becario">
+                
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis eveniet itaque neque illum necessitatibus labore optio omnis, ad ab aperiam doloribus nulla aliquam sequi? Aut quasi modi cum iusto officiis eveniet corrupti impedit repellendus similique
                         illo harum voluptas fugit inventore aperiam soluta eum dolor, esse maiores ad! Fugit, eveniet quo.
