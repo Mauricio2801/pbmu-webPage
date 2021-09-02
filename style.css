@@ -10,3 +10,22 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
   .logo-image{
       width: 10rem;
   }
+
+  #founder{
+    background-color: #070833;
+    width: 100%;
+  }
+
+  #news{
+    background-color: #fcee21;
+    width: 100%;
+  }
+
+  #phrase{
+    background-color: #070833;
+    width: 100%;
+  }
+
+  #community{
+    background-color: #f2f2f2;
+  }
