@@ -27,13 +27,13 @@
     <a class="nav-link" href="#">Becarios</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Multimedia</a>
+    <a class="nav-link" href="#">Multimedia</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Donaciones</a>
+    <a class="nav-link" href="#">Donaciones</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contactos</a>
+    <a class="nav-link" href="#">Contactos</a>
   </li>
 </ul>
     </div>
