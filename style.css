@@ -39,9 +39,10 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
     color: #f2f2f2;
   }
 
-  .news-container{
+  .news-container, .boletin-container{
     display: flex;
     flex-direction: column;
+    margin: 5% 0%;
   }
 
   header{
@@ -58,19 +59,21 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
   #news{
     background-color: #fcee21;
     width: 100%;
-    
   }
 
-  .news-container{
+  #boletin{
+    background-color: #070833;
+  }
+
+  .news-container, .boletin-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    margin-bottom: 4%;
+    justify-content: space-between;
   }
 
-  .news-img{
-    max-width: 20rem;
-    margin-bottom: 4%;
+  .news-img, .boletin-img{
+    margin: auto 4%;
+
   }
 
   .news-title{
@@ -78,9 +81,19 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
     color: #f2f2f2;
     border-radius: 10px;
     text-align: center;
-    padding: 2%;
-    margin: 2% 0%;
-    width: 100%;
+    margin: 5% 0%;
+    padding: 5% 10%;
+    width: 150%;
+  }
+
+  .boletin-title{
+    width: 150%;
+    background-color: yellow;
+    color: #070833;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5% 0%;
+    padding: 5% 10%;
   }
 
   .community-img{
@@ -109,10 +122,13 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
     text-align: center;
   } 
   
-  .news-wrapper{
+  .news-wrapper, .boletin-wrapper{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
+    margin-left: 0%;
+    padding-left: 0%;
   }
 
   #phrase{
@@ -120,7 +136,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
     width: 100%;
   }
 
-  #community, #memoria, #martires{
+  #community, #memoria, #martires, #fraseDean{
     background-color: #f2f2f2;
   }
 
@@ -137,7 +153,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
     background-color: #070833;
   }
 
-  .text-wrapper, .cifras{
+  .text-wrapper, .cifras, #fraseDean{
     display: flex;
     flex-direction: row;
   }
@@ -202,13 +218,14 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 .msj{
   height: 70%;
-  width: 100%;
+  max-width: 100%;
 }
 
 .btnE{
   background-color: yellow;
   color: #070833;
-  width: 40%;
+  width: 15%;
+  margin-left: 8%;
   height: 12%;
   border: none;
   font-weight: bolder;
@@ -216,4 +233,26 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 form{
   padding-bottom: 2%;
+  flex-wrap: wrap;
+}
+
+footer{
+  background-color: #070833;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+  padding: 1% 15% 2% 5%;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fab{
+  font-size: 40px;
+  padding-right: 20%;
+  color: #f2f2f2;
 }

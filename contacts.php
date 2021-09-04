@@ -8,11 +8,11 @@
             <input type="text" size="60"><br><br>
             <label for="name" class="textW">Telefono</label><br>
             <input type="text" size="60"><br><br>
-            <input type="button" value="Enviar" class="btnE">
         </div>
         <div>
         <label for="name" class="textW">Tu mensaje</label><br>
-        <input type="text" class="msj" size="60">  
+        <input type="text" class="msj" size="60">  <br>
         </div>  
-    </form>
+    </form><br>
+    <input type="button" value="Enviar" class="btnE"> <br><br><br>
 </section>
