@@ -111,6 +111,13 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
     grid-auto-rows: minmax(100px, auto);
   }
 
+    #image-gallery{
+      text-align: center;
+    }
+    #video-gallery{
+      text-align: center;
+    }
+
   .one {
     grid-column: 1 / 2;
     grid-row: 1;
